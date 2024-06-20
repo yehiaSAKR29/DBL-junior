@@ -44,7 +44,7 @@ module.exports = {
       content: `**RPS DUEL**\n\n${opponent}, you have been challenged to a rock paper scissors duel by ${interaction.user}!\n\n${opponent}, please select Rock, Paper or Scissors!`,
       components: [choicesRow]
     });
-    console.log(`⚙️\t${interaction.user.username} used /rps : '${opponent.username}'`);
+    console.log(`⚙️\t${interaction.user.username} used /rps against ${opponent.username}`);
 
     const filter = i => i.user.id === opponent.id;
     const collector = interaction.channel.createMessageComponentCollector({filter, time: 30_000});
