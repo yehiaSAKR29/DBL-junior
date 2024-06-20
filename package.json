@@ -19,5 +19,6 @@
     "@types/node": "^18.0.6",
     "discord-api-types": "^0.37.90",
     "discord.js": "^14.15.3"
+    "dotenv": "^16.4.5"
   }
 }
