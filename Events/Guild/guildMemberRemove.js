@@ -1,4 +1,4 @@
-const {GOODBYE_CHANNEL} = require("./config.json");
+const {GOODBYE_CHANNEL} = require("../../config.json");
 module.exports = {
   name: 'guildMemberRemove',
   async execute(member){
