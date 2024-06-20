@@ -1,4 +1,4 @@
-const {BOT_TOKEN, GUILD_ID, CLIENT_ID} = require("./config.json");
+const {BOT_TOKEN, GUILD_ID, CLIENT_ID} = require("../../config.json");
 const {REST} = require('@discordjs/rest');
 const {Routes} = require('discord-api-types/v10');
 const { ActivityType } = require('discord.js'); 
