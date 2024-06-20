@@ -1,4 +1,4 @@
-const {RULES_CHANNEL, ASSISTANCE_CHANNEL, WELCOME_CHANNEL, WELCOME_ROLE_ID} = require("./config.json");
+const {RULES_CHANNEL, ASSISTANCE_CHANNEL, WELCOME_CHANNEL, WELCOME_ROLE_ID} = require("../../config.json");
 module.exports = {
   name: 'guildMemberAdd',
   async execute(member){
