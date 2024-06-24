@@ -13,7 +13,7 @@ const client = new Client({
 
 
 //commands
-const commandFolders = ['Fun', 'Info', 'Utility'];
+const commandFolders = ['Fun', 'Info', 'Moderation', 'Utility'];
 const commands = [];
 client.commands = new Collection();
 
