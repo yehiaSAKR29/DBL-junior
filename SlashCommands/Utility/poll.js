@@ -61,11 +61,11 @@ module.exports = {
       }
     };
     
-    interaction.reply({content: 'Your poll has been created successfully!', ephemeral: true});
     const pollMessage = await interaction.channel.send({ embeds: [pollEmbed]});
     for (let i = 0; i < choices.length; i++){
       await pollMessage.react(emojis[i]);
     }
+    interaction.reply({content: 'Your poll has been created successfully!', ephemeral: true});
     console.log(`⚙️\t${interaction.user.username} used /poll on '${topic}'`);
   }
 }
