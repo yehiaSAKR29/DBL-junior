@@ -9,7 +9,7 @@ module.exports = {
     const helpEmbed = {
       color: 0xff0000,
       title: '__COMMANDS LIST__',
-      description: '**/coinflip**\nFlips a coin\n\n**/poll**\nCreates a poll\n\n**/purge**\nPurges messages in the channel\n\n**/rps**\nChallenges someone to a duel of rock paper scissors\n\n**/say**\nSays something',
+      description: '**/coinflip**\nFlips a coin\n\n**/kill**\nKills someone\n\n**/poll**\nCreates a poll\n\n**/purge**\nPurges messages in the channel\n\n**/rps**\nChallenges someone to a duel of rock paper scissors\n\n**/say**\nSays something',
       timestamp: new Date(),
       footer: {
         icon_url: interaction.user.avatarURL(),
